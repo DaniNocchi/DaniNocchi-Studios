@@ -1,8 +1,13 @@
 # 🌍 QSMP DISCORD THEME 🌍
 
 
-## 📖 CREDITS
-Just to say, this is an modded theme from the theme [LilyPichu theme](https://betterdiscord.app/theme/LilyPichu)
+## 📖 DESCRIPTION
+This is an QSMP themed discord theme that add an
+new layout, some eggs on the screen, cucurucho
+loading screen and QSMP stuff
+
+Just to say, this layout is from the [LilyPichu theme](https://betterdiscord.app/theme/LilyPichu)
+### THIS THEME IS IN THE VERSION 1.0.0, ANY BUGS WITH THE THEME OR THE COLORS FROM THE THEME CALL ME AT DISCORD: daninocchi
 
 ## 📥 INSTALATION
 ### BetterDiscord
