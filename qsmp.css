@@ -1,0 +1,241 @@
+/**
+* THIS IS AN FANMADE THEME, THE ORIGINAL THEME IS FROM THE AUTHOR MENTIONED BELLOW
+ 
+* ORIGINAL AUTHOR AND THEME
+* @original author: Nyria#3863
+* @original theme: https://betterdiscord.app/theme/LilyPichu
+* @donate the original author: https://ko-fi.com/nyria
+* Modiffied theme's version: 1.0.0
+*/
+@import url("https://pastebin.com/raw/Jf62Ecd5");
+
+:root {
+  /* --- User variables --- */
+
+  /* Jumping GIF */
+  --jumping-gif: url("https://cdn.discordapp.com/attachments/978450339105767425/1118827738023874590/cucurucho_jumpscare_4.gif");
+
+  /* Background (if you want an image replace it by : 
+
+--background-tertiary-alt: url("image-link"); without that => */
+  --background-tertiary-alt: #282828;
+
+  /* Border-radius for the whole theme */
+  --border-radius: 20px;
+}
+
+.theme-dark {
+  /* Text */
+  --text-normal: #e4e2e2;
+  --header-primary: #ffffff;
+  --interactive-normal: #6a6a6a;
+  --channels-default: #818181;
+
+  --text-muted: #c3c3c3;
+  --interactive-muted: #000000;
+
+  --header-secondary: #e1e1e1;
+  --interactive-hover: #656565;
+  --interactive-active: #ffffff;
+
+  /* Background color */
+  --background-primary: #3a3a3a;
+  --background-secondary: #353535;
+  --background-secondary-alt: #333333;
+  --background-tertiary: #282828;
+  --background-floating: #222222;
+  --background-accent: #5865f2;
+  --channeltextarea-background: var(--background-secondary);
+  --background-modifier-hover: rgba(31, 31, 31, 0.32);
+  --background-modifier-active: rgba(12, 12, 12, 0.32);
+  --background-modifier-selected: rgba(21, 21, 21, 0.32);
+  --toast-background: #ffffff !important;
+  --toast-header: #2b2b2b !important;
+  --toast-contents: #272727 !important;
+  --toast-border: #333333 !important;
+  --input-background: var(--background-secondary);
+
+  /* Scrollbar */
+  --scrollbar-auto-thumb: var(--background-tertiary);
+  --scrollbar-auto-track: var(--background-secondary-alt);
+  --scrollbar-thin-thumb: var(--background-tertiary);
+  --scrollbar-thin-track: transparent;
+
+  /* Other */
+  --channel-text-area-placeholder: var(--interactive-normal);
+  --deprecated-quickswitcher-input-background: var(--background-primary);
+}
+.colorBrand-3cPPsm {
+  color: #ffffff;
+}
+.colorDefault-CDqZdO.focused-3qFvc8,
+.colorDefault-CDqZdO:active:not(.hideInteraction-2jPGL_) {
+  background-color: var(--background-modifier-hover) !important;
+}
+
+/* Buttons */
+.lookFilled-yCfaCM {
+  background-color: #c5536c !important;
+}
+.lookFilled-yCfaCM:active,
+.lookFilled-yCfaCM:hover {
+  background-color: #b64a61 !important;
+}
+.lookOutlined-3yKVGo:not(.colorWhite-1H92hK) {
+  color: #c5536c;
+  border-color: #c5536c;
+}
+
+/* Hover background */
+.colorDefault-CDqZdO.focused-3qFvc8,
+.colorDefault-CDqZdO:active:not(.hideInteraction-2jPGL_) {
+  color: var(--interactive-normal);
+}
+
+.theme-light {
+  /* Text */
+  --text-normal: #a86373;
+  --header-primary: #a86373;
+  --interactive-normal: #a86373;
+  --channels-default: #a86373;
+
+  --text-muted: #a86373;
+  --interactive-muted: #cf92a0;
+
+  --header-secondary: #cf92a0;
+  --interactive-hover: #be7d8c;
+  --interactive-active: #b36f7f;
+
+  /* Background color */
+  --background-primary: #ffffff;
+  --background-secondary: #ffeeee;
+  --background-secondary-alt: #fdc7c7;
+  --background-tertiary: #ffbbbb;
+  --background-floating: #ffbbbb;
+  --background-accent: #c5536c;
+  --channeltextarea-background: var(--background-secondary);
+  --background-modifier-hover: rgba(56, 31, 31, 0.062);
+  --background-modifier-active: rgba(19, 12, 12, 0.123);
+  --background-modifier-selected: rgba(31, 21, 21, 0.11);
+
+  /* Scrollbar */
+  --scrollbar-auto-thumb: var(--background-tertiary);
+  --scrollbar-auto-track: var(--background-secondary-alt);
+  --scrollbar-thin-thumb: var(--background-tertiary);
+  --scrollbar-thin-track: transparent;
+
+  /* Other */
+  --deprecated-quickswitcher-input-background: var(--background-primary);
+}
+
+.colorBrand-3cPPsm {
+  color: #c5536c;
+}
+.colorDefault-CDqZdO.focused-3qFvc8,
+.colorDefault-CDqZdO:active:not(.hideInteraction-2jPGL_) {
+  background-color: var(--background-modifier-hover) !important;
+}
+
+/* Buttons */
+.lookFilled-yCfaCM {
+  background-color: #c5536c !important;
+}
+.lookFilled-yCfaCM:active,
+.lookFilled-yCfaCM:hover {
+  background-color: #b64a61 !important;
+}
+.lookOutlined-3yKVGo:not(.colorWhite-1H92hK) {
+  color: #c5536c;
+  border-color: #c5536c;
+}
+
+/* Hover background */
+.colorDefault-CDqZdO.focused-3qFvc8,
+.colorDefault-CDqZdO:active:not(.hideInteraction-2jPGL_) {
+  color: var(--interactive-normal);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* DECORATIONS */
+
+
+
+:root .app-3xd6d0::before, :root .app-3xd6d0::after, :root .app-2CXKsg::after, :root .app-2CXKsg::before, :root .layers-OrUESM::before, :root .layers-OrUESM::after, :root .app-3xd6d0::before, :root .bg-1QIAus::after, :root .bg-1QIAus::before {
+  content: "";
+  position: fixed;
+  z-index: 1;
+  pointer-events: none;
+}
+:root .app-2CXKsg::before {
+  z-index: 2;
+  top: 90px;
+  right: 130px;
+  width: 200px;
+  height: 200px;
+  background: url("https://static.wikia.nocookie.net/qsmp/images/a/af/QSMP_Logo.png") no-repeat;
+  background-size: 100%;
+}
+:root .app-2CXKsg::after {
+  rotate: -15deg;
+  bottom: 5px;
+  left: 450px;
+  width: 45px;
+  height: 50px;
+  background: url("https://static.wikia.nocookie.net/qsmp/images/6/65/Pomme.icon.png");
+  background-size: 100%;
+}
+:root .layers-OrUESM::before {
+  rotate: -15deg;
+  z-index: 2;
+  bottom: 35px;
+  right: 150px;
+  width: 50px;
+  height: 60px;
+  background: url("https://static.wikia.nocookie.net/qsmp/images/2/26/Chayanne.icon.png") no-repeat;
+  background-size: 100%;
+}
+:root .layers-OrUESM::after {
+  z-index: 2;
+  rotate: 15deg;
+  top: 20px;
+  left: 400px;
+  width: 30px;
+  height: 40px;
+  background: url("https://static.wikia.nocookie.net/qsmp/images/7/7b/Bobby.icon.png") no-repeat;
+  background-size: 100%;
+}
+:root .bg-1QIAus::after {
+  rotate: -25deg;
+  top: 45px;
+  right: 385px;
+  width: 40px;
+  height: 50px;
+  background: url("https://static.wikia.nocookie.net/qsmp/images/8/82/Gegg.icon.png") no-repeat;
+  background-size: 100%;
+}
+:root .bg-1QIAus::before {
+  rotate: 30deg;
+  z-index: 2;
+  bottom: 30%;
+  right: 430px;
+  width: 40px;
+  height: 50px;
+  background: url("https://static.wikia.nocookie.net/qsmp/images/0/09/Richarlyson.icon.png") no-repeat;
+  background-size: 100%;
+}
+@media (max-width: 1350px) {
+  :root .bg-1QIAus::before {
+    display: none;
+  }
+}
