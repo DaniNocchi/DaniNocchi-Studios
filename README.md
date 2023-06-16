@@ -1,10 +1,10 @@
-# QSMP DISCORD THEME
+# 🌍 QSMP DISCORD THEME 🌍
 
 
-## CREDITS
+## 📖 CREDITS
 Just to say, this is an modded theme from the theme [LilyPichu theme](https://betterdiscord.app/theme/LilyPichu)
 
-## INSTALATION
+## 📥 INSTALATION
 ### BetterDiscord
 ![BetterDiscord](https://im5.ezgif.com/tmp/ezgif-5-6798232a71.png)
 
