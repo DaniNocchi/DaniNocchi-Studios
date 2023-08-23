@@ -30,8 +30,12 @@ this layout was made using the [LilyPichu theme](https://betterdiscord.app/theme
 </div>
 
 <div align="left">
-    <img align="left" src="https://i.imgur.com/fXYKU5q.png" alt="Vencord" width="45" height="45">
-    <b><p align="left">Vencord</b>
-    <br/>Copy <code>https://nyri4.github.io/LilyPichu/lilypichu.theme.css</code> into the box in Settings > Themes > Themes tab</p>
-</div><br/>
+    <img align="left" src="https://i.imgur.com/fXYKU5q.png" width="45" height="45">
+</div>
+    
+<br/> <b>Vencord</b>
+
+Methode 1 - Copy <code>https://raw.githubusercontent.com/DaniNocchi/DaniNocchi-Studios/main/qsmp.css</code> into the box in Settings/Themes/Online Themes<br/>
+Methode 2 - Download the [BetterDiscord's one](https://betterdiscord.app/theme/LilyPichu) and put on your folder at Local Themes (appdata/roaming/vencord/themes)</p>
+
 
